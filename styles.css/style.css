@@ -1,0 +1,27 @@
+/* main font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common or utillitie */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1162px;
+    height: 44px;
+    padding: 0px;
+    margin: 40px;
+    background-color: #2D25A0;
+}
+.topnav a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.topnav .fa-sign-in-alt {
+    color: #ffffff;
+}
